@@ -1,0 +1,72 @@
+
+// Restyled Primary Buttons
+.btn{
+  @extend .heading-font;
+  @include transition(all ease 0.5s);
+  text-decoration: none !important;
+  text-shadow: 0 !important;
+  font-weight: 300;
+}
+
+
+/*Button style*/
+.primary-button{
+  padding: 13px 25px;
+
+  i{
+    display: none;
+  }
+
+  &.have-icon{
+    position: relative;
+    padding-left: 50px;
+    i{
+      font-size: 32px;
+      display: inherit;
+      position: absolute;
+      left: 10px;
+      top: 6px;
+    }
+  }
+}
+
+
+.secondary-button{
+  padding: 10px 35px;
+
+  i{
+    display: none;
+  }
+
+  &.have-icon{
+    position: relative;
+    padding-left: 50px;
+    i{
+      font-size: 32px;
+      display: inherit;
+      position: absolute;
+      left: 10px;
+      top: 3px;
+    }
+  }
+}
+
+.tertiary-button{
+  padding: 10px 35px;
+
+  i{
+    display: none;
+  }
+
+  &.have-icon{
+    position: relative;
+    padding-left: 50px;
+    i{
+      font-size: 32px;
+      display: inherit;
+      position: absolute;
+      left: 10px;
+      top: 3px;
+    }
+  }
+}

@@ -1,0 +1,154 @@
+/*Section background-color*/
+&{
+  background: $section_bg_color;
+}
+
+/*Font-color*/
+h1,h2,h3,h4,h5,h6{
+  color: $heading_font_color;
+
+}
+
+.strong-color{
+  color: $strong-color;
+}
+
+
+body, p{
+  color: $body_font_color;
+}
+
+/*Link color*/
+a{
+  color: $link_font_color;
+  &:hover{
+    color: $link_hover_font_color;
+  }
+}
+
+/*Read more link*/
+.link-text a,{
+  color: $link_read_more;
+  &:hover{
+    color: $link_hover_read_more;
+  }
+  &.current{
+    color: $link_hover_read_more;
+  }
+}
+.link-text{
+  color: $link_read_more;
+}
+
+.line-color{
+  border-color: $line-color;
+}
+
+.btn{
+  border-radius: $button_border_radius;
+}
+
+
+/*Button custom style*/
+.primary-button{
+  color: $button_font_color;
+  background-color: $button_bkgd_color;
+  border-color: $button_border_color;
+
+  &:hover, &:active,&:focus{
+    color: $button_hover_font_color;
+    background-color: $button_hover_bkgd_color;
+    border-color: $button_hover_border_color;
+  }
+}
+
+.secondary-button{
+  color: $secondary_button_font_color;
+  background-color:  $secondary_button_bkgd_color;
+  border-color: $secondary_button_border_color;
+
+  &:hover, &:active,&:focus{
+    color: $secondary_button_hover_font_color;
+    background-color: $secondary_button_hover_bkgd_color;
+    border-color: $secondary_button_hover_border_color;
+  }
+}
+
+.tertiary-button{
+  color: $tertiary_button_font_color;
+  background-color:  $tertiary_button_bkgd_color;
+  border-color: $tertiary_button_border_color;
+
+  &:hover, &:active,&:focus{
+    color: $tertiary_button_hover_font_color;
+    background-color: $tertiary_button_hover_bkgd_color;
+    border-color: $tertiary_button_hover_border_color;
+  }
+}
+
+/*Input style*/
+
+/*Input style*/
+.form-group {
+  input,
+  textarea {
+
+    border-radius: $button_border_radius;
+
+    @include placeholder {
+      color: $input_placeholder_color;
+    }
+    border-color:$input_border_color;
+    background-color: $input_bg_color;
+    color: $input_text_color;
+    &:focus {
+      box-shadow: none;
+      outline: none;
+    }
+  }
+}
+
+input,
+textarea {
+
+  border-radius: $button_border_radius;
+
+  @include placeholder {
+    color: $input_placeholder_color;
+  }
+  border-color:$input_border_color;
+  background-color: $input_bg_color;
+  color: $input_text_color;
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+}
+
+
+
+/*Box style*/
+
+.box{
+  background: $box_bg_color;
+  border-color: $box_border_color;
+  h1,h2, h3,h4,h5,h6{
+    color: $box_heading_font_color;
+  }
+  color: $box_body_font_color;
+  p{
+    color: $box_body_font_color;
+  }
+}
+
+/*Custom style*/
+
+
+
+blockquote{
+  footer{
+    &::before{
+      background: $body_font_color;
+    }
+  }
+}

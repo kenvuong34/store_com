@@ -1,0 +1,79 @@
+.form-group {
+  margin-bottom: 15px;
+  input,
+  textarea {
+
+
+    border-width: 1px;
+    border-style: solid;
+
+    padding: 8px 18px;
+    box-shadow: none;
+    outline: none;
+    &:focus{
+      box-shadow: none;
+      outline: none;
+    }
+  }
+  input.form-control {
+    height: auto;
+  }
+  textarea.form-control {
+    height: 236px;
+  }
+}
+
+
+.gform_wrapper .gform_body .top_label li.gfield{
+  margin-bottom: 15px;
+  input,
+  textarea {
+
+    border-width: 1px;
+    border-style: solid;
+
+    padding: 8px 18px;
+    box-shadow: none;
+    outline: none;
+    &:focus{
+      box-shadow: none;
+      outline: none;
+    }
+  }
+  input.form-control {
+    height: auto;
+  }
+  textarea.form-control {
+    height: 236px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .gform_wrapper .gform_body .top_label li.gfield.gf_right_half {
+    float: left;
+    clear: left !important;
+    width: 99%;
+  }
+
+  .gform_wrapper .gform_body .top_label li.gfield.gf_left_half {
+    float: left;
+    clear: left !important;
+    width: 99%;
+  }
+
+}
+
+
+.gform_wrapper input[type=text], .gform_wrapper input[type=url], .gform_wrapper input[type=email], .gform_wrapper input[type=tel], .gform_wrapper input[type=number], .gform_wrapper input[type=password] {
+  outline-style: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  letter-spacing: normal !important;
+
+}
+
+.gform_footer{
+  text-align: center;
+}

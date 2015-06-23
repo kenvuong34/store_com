@@ -1,0 +1,35 @@
+/*Import folder vendores*/
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+
+
+/*Import folder utils*/
+@import "utils/functions";
+@import "utils/helpers";
+@import "utils/mixins";
+@import "utils/variables";
+
+/*Import folder base*/
+@import "base/reset";
+@import "base/typography";
+@import "base/style1";
+@import "base/style2";
+@import "base/style3";
+@import "base/style4";
+
+/*Import folder layout*/
+@import "layout/navigation";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/sidebar";
+@import "layout/form";
+
+/*Import folder components*/
+@import "components/buttons";
+@import "components/carousel";
+@import "components/cover";
+@import "components/dropdown";
+
+/*Import folder pages*/
+@import "pages/home";

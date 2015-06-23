@@ -1,0 +1,71 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+
+/*Font color*/
+$heading_font_color: $brand-secondary;
+$body_font_color: $gray;
+
+/*Strong color*/
+$strong-color: $gray-darkest;
+
+/*Link color*/
+$link_font_color:$brand-secondary;
+$link_hover_font_color: darken($link_font_color,10%);
+
+/*Link read-more*/
+$link_read_more: $brand-secondary;
+$link_hover_read_more: darken($link_read_more,10%);
+
+/*Section bg color*/
+$section_bg_color: $bg-color;
+
+/*Line color*/
+$line-color: $gray-lighter;
+
+/*Box item*/
+$box_bg_color: $gray-lighter;
+$box_border_color: transparent;
+$box_heading_font_color : $brand-primary;
+$box_body_font_color : $body_font_color;
+/*Button radius*/
+
+$button_border_radius: 50px;
+
+/*Button primary variable*/
+$button_bkgd_color: $brand-primary;
+$button_hover_bkgd_color: darken($button_bkgd_color,10%);
+$button_font_color: $bg-color;
+$button_hover_font_color: $bg-color;
+$button_border_color: $brand-primary;
+$button_hover_border_color: darken($brand-primary,10%);
+
+/*Button secondary variable*/
+$secondary_button_bkgd_color: $brand-secondary;
+$secondary_button_hover_bkgd_color: darken($secondary_button_bkgd_color,10%);
+$secondary_button_font_color: $bg-color;
+$secondary_button_hover_font_color: $bg-color;
+$secondary_button_border_color: $brand-secondary;
+$secondary_button_hover_border_color: darken($secondary_button_border_color, 10%);
+
+/*Button secondary variable*/
+$tertiary_button_bkgd_color: $bg-color;
+$tertiary_button_hover_bkgd_color: darken($tertiary_button_bkgd_color,10%);
+$tertiary_button_font_color: $brand-secondary;
+$tertiary_button_hover_font_color: $brand-secondary;
+$tertiary_button_border_color: $brand-secondary;
+$tertiary_button_hover_border_color: darken($tertiary_button_border_color,10%);
+
+
+
+/*Input style*/
+$input_bg_color: $gray-lighter;
+$input_border_color: transparent;
+$input_text_color: $gray-darkest;
+$input_placeholder_color: $gray;
+
+
+
+
+.p5theme-row-p5style1{
+  @import "base";
+}

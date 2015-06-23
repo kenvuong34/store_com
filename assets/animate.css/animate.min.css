@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/*!
+ Animate.css - http://daneden.me/animate
+ Licensed under the MIT license - http://opensource.org/licenses/MIT
+ Copyright (c) 2014 Daniel Eden
+ */
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both; }
+
+.animated.infinite {
+  animation-iteration-count: infinite; }
+
+.animated.hinge {
+  animation-duration: 2s; }
+
+@keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    transform: translate3d(-2000px, 0, 0); }
+
+  100% {
+    opacity: 1;
+    transform: none; } }
+
+.fadeInLeftBig {
+  animation-name: fadeInLeftBig; }
+
+@keyframes fadeOutLeftBig {
+  0% {
+    opacity: 1; }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(-2000px, 0, 0); } }
+
+.fadeOutLeftBig {
+  animation-name: fadeOutLeftBig; }
+
+@keyframes fadeOutRightBig {
+  0% {
+    opacity: 1; }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(2000px, 0, 0); } }
+
+.fadeOutRightBig {
+  animation-name: fadeOutRightBig; }
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+
+  100% {
+    opacity: 1;
+    transform: none; } }
+
+.fadeInUp {
+  animation-name: fadeInUp; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+
+.fadeIn {
+  animation-name: fadeIn; }

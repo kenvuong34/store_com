@@ -1,0 +1,21 @@
+body {
+  overflow-x: hidden;
+
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.square-image{
+  padding-bottom: 100%;
+}
+
+
+
+.background-image{
+  @include background-size(cover);
+  background-repeat: no-repeat;
+  background-position: center center ;
+}
